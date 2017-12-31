@@ -1,0 +1,1 @@
+emcc --bind test_html5.cpp -s FETCH=1 -s WASM=1 -O3 -o test_html5.js
